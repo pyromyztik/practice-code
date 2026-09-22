@@ -1,4 +1,5 @@
 class Primes {
+    // Implements Euler's Phi Function
     static int numberOfCoprimesTill(int limit) {
         int result = limit;
 
