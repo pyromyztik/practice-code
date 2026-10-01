@@ -1,7 +1,6 @@
 public class MajorityElement {
-    public static int find(int[] values) {
-        int candidate = 0;
-        int count = 0;
+    public static int find(int[] values) {  // voting
+        int candidate = 0, count = 0;
 
         for (int value: values) {
             if (count == 0) candidate = value;
